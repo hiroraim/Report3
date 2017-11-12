@@ -9,7 +9,7 @@ public class LivingThing {
     //コンストラクタ
     public LivingThing(String name, int hitPoint, int attack) {
         this.name = name;
-        hitPoint = hitPoint;
+        this.hitPoint = hitPoint;
         this.attack = attack;
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, hitPoint, attack);
